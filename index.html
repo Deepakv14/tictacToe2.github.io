@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link type="text/css" rel="stylesheet" href="./CSS/style.css">
+    <title>Document</title>
+</head>
+
+<body onload="startGame()">
+    <h1 class="text">TIC-TAC-TOE</h1>
+    <div id="message" class="text1">Result</div>
+    <div class="outer-box">
+        <div class="play-board">
+            <section>
+                <span id="div1" class="box" onclick="nextMove(this);"></span>
+                <span id="div2" class="box" onclick="nextMove(this);"></span>
+                <span id="div3" class="box" onclick="nextMove(this);"></span>
+            </section>
+            <section>
+                <span id="div4" class="box" onclick="nextMove(this);"></span>
+                <span id="div5" class="box" onclick="nextMove(this);"></span>
+                <span id="div6" class="box" onclick="nextMove(this);"></span>
+            </section>
+            <section>
+                <span id="div7" class="box" onclick="nextMove(this);"></span>
+                <span id="div8" class="box" onclick="nextMove(this);"></span>
+                <span id="div9" class="box" onclick="nextMove(this);"></span>
+            </section>
+        </div>
+    </div>
+    <button type="button" onclick="startGame()" " class=" but ">Play Again</button>
+      <h2>Created By:<span> Deepak Verma</span></h2>
+    <script type="text/javascript " src="script.js "></script>
+</body>
+
+</html>
